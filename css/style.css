@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.principal {
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px #0000001a;
+    overflow: hidden;
+}
+
+.imagemPrincipal img {
+    width: 100%;
+    height: auto;
+}
+
+.imagemPrincipal section {
+    margin-top: -15.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+section .div1 {
+    margin-bottom: 0.2rem;
+    z-index: 99;
+    margin-left: 1rem;
+    width: 30px;
+    height: 30px;
+    background: #0E5F9A;
+}
+section .div2 {
+    margin-bottom: 0.2rem;
+    z-index: 99;
+    margin-left: 1rem;
+    width: 30px;
+    height: 30px;
+    background: #D93E41;
+}
+section .div3 {
+    margin-bottom: 0.2rem;
+    z-index: 99;
+    margin-left: 1rem;
+    width: 30px;
+    height: 30px;
+    background: #122331;
+}
+section .div4 {
+    margin-bottom: 0.2rem;
+    z-index: 99;
+    margin-left: 1rem;
+    width: 30px;
+    height: 30px;
+    background: #255E78;
+}
+section .div5 {
+    margin-bottom: 0.2rem;
+    z-index: 99;
+    margin-left: 1rem;
+    width: 30px;
+    height: 30px;
+    background: #DEEBFF;
+}
+section .div6 {
+    margin-bottom: 0.2rem;
+    z-index: 99;
+    margin-left: 1rem;
+    width: 30px;
+    height: 30px;
+    background: #F5F2FC;
+}
+section .div7 {
+    margin-bottom: 0.2rem;
+    z-index: 99;
+    margin-left: 1rem;
+    width: 30px;
+    height: 30px;
+    background: #FFFFFF;
+}
+
+.textoCabecalho {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 2rem;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+p {
+    padding-inline: 3rem;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 2rem;
+}
+
+.infoPlano {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F2F5FC;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.infoPlano img {
+    position: flex;
+    flex-direction: row;
+    align-items:start;
+    width: 50px;
+    height: 50px;
+}
+
+.textoPlano {
+    margin-right: 5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.txt1Plano {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+.alterarPlano {
+    margin-right: 1rem;
+    text-decoration: none;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 64px;
+    text-align: right;
+    color: #0E5F9A;
+}
+
+.alterarPlano:hover {
+    text-decoration: underline;
+}
+
+.precoPlano {
+    font-size: 16px;
+    color: #333;
+}
+
+.pagamento {
+    width: 100%;
+    padding: 12px;
+    background: #0E5F9A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 19px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.pagamento:hover {
+    background-color: #004999;
+}
+
+.cancelar {
+    text-decoration: none;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 64px;
+    text-align: right;
+    color: #0E5F9A;
+}
+
+.cancelar:hover {
+    text-decoration: underline;
+}
