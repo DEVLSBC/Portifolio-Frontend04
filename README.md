@@ -1,0 +1,1 @@
+Nesse projeto eu desenvolvi uma página web baseado em um projeto do FIGMA que recebi em uma das cadeiras da faculdade no FBUNI, onde o professor passou o projeto em FIGMA e solicitou, como teste, que os alunos o fizessem em HTML e CSS.
